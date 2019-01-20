@@ -1,0 +1,6 @@
+.survey-form {
+	display: flex;
+	background-color: pink;
+	flex-wrap: wrap;
+	align-items: center;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<body>
+<head>
+<title>Take Control Survey</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<h1 id="title">Take Control Survey</h1>
+
+<p id="description">I'm always looking to write the next great Take Control title, but I need your input to know what you're interested in:
+</p>
+
+<form id="survey-form">
+	
+	<ul class="flex-outer">
+		<li>
+			<label id="name-label">Name</label></div>
+			<input type="text" id="name" placeholder="John Smith">
+		</li>
+		<li>
+			<label id="email-label">Email</label>
+			<input type="email" id="email" placeholder="john@smith.com">
+		</li>
+		<li>
+			<label id="number-label">Age (1-120)</label>
+			<input type="number" id="number" min="1" max="120" placeholder="18">
+		</li>
+		<li>
+			<select id="dropdown">
+				<option value="volvo">Volvo</option>
+				<option value="saab">Saab</option>
+				<option value="mercedes">Mercedes</option>
+				<option value="audi">Audi</option>
+			</select> 
+		</li>
+	<li>
+		<p>Sex</p>
+		<ul class="flex-inner">
+			<li>
+				<input type="radio" name="name" value="male"> Male
+				<input type="radio" name="name" value="female"> Female
+			</li>
+		</ul>
+	</li>
+	<li>
+		<p>Interests:</p>
+		<ul class="flex-inner">
+			<li><input type="checkbox" name="name" value="test">Test</li>
+			<li><input type="checkbox" name="name" value="test">Test</li>
+			<li><input type="checkbox" name="name" value="test">Test</li>
+			<li><input type="checkbox" name="name" value="test">Test</li>
+		</ul>
+	</li>
+	<li>
+		<label id="comments">Comments</label>
+		<textarea rows="6" placeholder="Enter any additional comments here"></textarea>
+	</li>	
+	<li>
+		<input type="submit" value="submit" id="submit">
+	</li>
+</ul>
+</form>
+</body>
