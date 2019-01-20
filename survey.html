@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<body>
+<head>
+<title>Take Control Survey</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<h1 id="title">Take Control Survey</h1>
+
+<p id="description">I'm always looking to write the next great Take Control title, but I need your input to know what you're interested in:
+</p>
+
+<form id="survey-form">
+
+	<ul class="flex-outer">
+		<li>
+			<label id="name-label">Name</label></div>
+			<input type="text" id="name" placeholder="John Smith" required>
+		</li>
+		<li>
+			<label id="email-label">Email</label>
+			<input type="email" id="email" placeholder="john@smith.com" required>
+		</li>
+		<li>
+			<label id="number-label">Age (1-120)</label>
+			<input type="number" id="number" min="1" max="120" placeholder="18">
+		</li>
+		<li id="dropdown-list-item">
+			<label>Favorite Take Control Title</label>
+			<select id="dropdown">
+				<option value="iOS">Take Control of iOS 12</option>
+				<option value="appletv">Take Control of Apple TV</option>
+				<option value="automation">Take Control of Apple Home Automation</option>
+				<option value="notes">Take Control of Notes</option>
+			</select>
+		</li>
+	<li>
+		<p>Sex</p>
+		<ul class="flex-inner">
+			<li>
+				<input type="radio" name="name" value="male"> Male
+			</li>
+			<li>
+				<input type="radio" name="name" value="female"> Female
+			</li>
+		</ul>
+	</li>
+	<li>
+		<p>Interests</p>
+		<ul class="flex-inner">
+			<li><input type="checkbox" name="name" value="test">Publishing</li>
+			<li><input type="checkbox" name="name" value="smithing">Smithing</li>
+			<li><input type="checkbox" name="name" value="web">Web Development</li>
+			<li><input type="checkbox" name="name" value="woodworking">Woodworking</li>
+		</ul>
+	</li>
+	<li>
+		<label id="comments">Comments</label>
+		<textarea rows="6" placeholder="Enter any additional comments here"></textarea>
+	</li>
+	<li>
+		<button type="submit" value="submit" id="submit">Submit</button>
+	</li>
+</ul>
+</form>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
